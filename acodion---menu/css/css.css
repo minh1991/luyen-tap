@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.box-content {
+    color: #565656e0;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.box-title img {
+    float: right;
+    height: 24px;
+    padding-right: 40px;
+    margin-top: 19px;
+    transition: 0.4s;
+    margin-right: -150px;
+}
+
+h2.box-title {font-size: 28px;color: #4e4a4a;font-weight: 200;height: 59px;cursor: pointer;overflow: hidden;transition: 0.4s;padding: 10px 30px;}
+
+h2.box-title:hover {
+    border-radius: 15px;
+}
+
+h2.box-title:hover {
+    background: #ff92a563;
+}
+
+h2.box-title:hover {
+    color: #1111e499;
+}
+
+h2.box-title.click img {
+    margin-right:  0px;
+    transform: rotate(180deg);
+    margin-top: 15px;
+}
+
+h2.box-title:hover img {
+    margin-right: 0px;
+}
+
+.box {
+    border-bottom: 1px solid #80808096;
+    padding-bottom: 28px;
+    margin-bottom: 14px;
+}
+
+.box-img {
+    overflow: hidden;
+}
+
+img.box-img-litter {
+    float: left;
+    height: 107px;
+    margin-right: 8px;
+}
+
+.contener {
+    width: 60%;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background: antiquewhite;
+}
+
+.contener h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 16px 0px;
+    margin-bottom: 45px;
+}
+
+.box-title.click{
+	color: #1111e499;
+	background: #ff92a563;
+	border-radius: 15px;
+}

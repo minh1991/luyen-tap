@@ -1,0 +1,110 @@
+*{margin: 0px;padding: 0px}
+
+.body-content-text {
+    width: 80%;
+    margin: auto;
+}
+
+.body-content-img {
+    height: 100vh;
+    width: 100%;
+    background: url(../img/drinking-whisky-and-reflecting-on-life.jpg);
+    background-size: cover;
+}
+
+.body-content {
+    width: 100%;
+    margin: auto;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+.menu-right-content ul li a {
+    text-decoration: none;
+    color: #d7a663;
+    font-size: 20px;
+    font-family:  cursive;
+    padding: 30px 20px 0px 20px;
+    display:  block;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.menu.menu_change ul li a {
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.menu-right-content ul li {
+    float: left;
+    list-style:  none;
+    transition: 0.4s;
+}
+
+.li {}
+
+.menu-right-content {
+    float: right;
+    padding-right: 50px;
+}
+
+.logo a img {
+    height: 90%;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+
+.menu.menu_change .logo a img {
+    height: 80%;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    transition: 0.4s;
+}
+
+.menu.menu_change .logo {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+.menu-content-right {
+    width: 75%;
+    float: left;
+    text-align: right;
+    transition: 0.4s;
+}
+
+.menu-content-left {
+    width: 25%;
+    float: left;
+}
+
+.menu-content {
+    width: 85%;
+    margin: auto;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    background: #80808000;
+    position: fixed;
+    top: 0px;
+    transition: 0.4s;
+}
+
+.menu.menu_change_2 {background-image: -webkit-linear-gradient(90deg,#00000057 10%,#000000a3 20%,#26101099 30%,#a63d3dd1 50%,#b42525d9 60%,#623131cf 80%,#00000085 95%);transform: translateY(-25%);}
+
+.menu.menu_change_1 {background-image: -webkit-linear-gradient(45deg,#00000057 10%,#000000a3 20%,#26101099 30%,#a63d3dd1 50%,#b42525d9 60%,#623131cf 80%,#00000070 95%);}
+
+.menu.menu_change {
+    background: #00000082;
+}

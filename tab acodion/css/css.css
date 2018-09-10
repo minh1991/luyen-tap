@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box h3:hover {
+    background: url(../img/icons8-expand-arrow-50.png) 95% #eb3b5ad1;
+    background-repeat:  no-repeat;
+}
+
+.box h3.box-click {
+    background: #ef0e93b8;
+}
+
+.box h3.box-click:hover {
+    background: #ef0e93b8;
+}
+
+.box-conten {
+    text-align: left;
+    padding: 8px 8px;
+    color: #503838de;
+    border: 1px solid #eb3b5a57;
+}
+
+.box h3 {
+    background: #eb3b5ad1;
+    color: #fff;
+    text-align: left;
+    padding: 8px 25px;
+}
+
+.conteiner {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    background: #fc5c655e;
+    font-family: cursive;
+}

@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+.button ul {
+    display: inline-block;
+}
+
+.button ul li {
+    list-style: none;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    background: #80808096;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 1px solid #80808096;
+}
+
+.button li._click {
+    background: none;
+    border: 1px solid #0053c5de;
+}
+
+.button ul li:hover {
+    background: gray;
+}
+
+.button-next {
+    position: absolute;
+    z-index: 4;
+    top: 25%;
+    right: 4%;
+    cursor: pointer;
+}
+
+.button-prev {
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.slide-img img {
+    height: 100%;
+    width: 80%;
+}
+
+.slide-img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.slide {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contener {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.slide-img.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.slide-img.turn_left {
+   
+    -webkit-animation: turn_left 0.5s forwards;
+}
+@-webkit-keyframes turn_left {
+    from{
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    to{
+        left:-100%;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+.slide-img.active.turn_right {
+    animation: turn_right 0.5s forwards;
+}
+@-webkit-keyframes turn_right {
+    from{
+        left:-100%;
+        visibility: hidden;
+        opacity: 0;
+    }
+    to{
+        left:0%;
+        visibility: visible;
+        opacity: 1;
+    }
+}
+.slide-img.turn_right {
+   
+    -webkit-animation: turn_right 0.5s forwards;
+}
+@-webkit-keyframes turn_right {
+    from{
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    to{
+        left: 100%;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+.slide-img.active.turn_left {
+    animation: turn_left 0.5s forwards;
+}
+@-webkit-keyframes turn_left {
+    from{
+        left: -100%;
+        visibility: hidden;
+        opacity: 0;
+    }
+    to{
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+}
